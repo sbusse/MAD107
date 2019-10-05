@@ -19,7 +19,7 @@ func fibForNumSteps(numSteps: Int) -> [Int] {
 }
 
 //call with # of 'steps'
-fibForNumSteps(numSteps: 5)
+fibForNumSteps(numSteps: 15)
 
 //print(fibForNumSteps)
 
