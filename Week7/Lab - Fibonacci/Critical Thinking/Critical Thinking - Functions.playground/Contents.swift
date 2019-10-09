@@ -1,17 +1,25 @@
 import UIKit
 
-var salad = ["Lettuce", "Cucumbers", "Tomatoe", "Pepper","Cheese","Dressing"  ]
+//var salad = ["Lettuce", "Cucumbers", "Tomatoe", "Pepper","Cheese","Dressing"  ]
+//
+//func sortIngredients () -> [String] {
+//    let myOrder = salad.sorted()
+//    return myOrder
+//}
+//
+//func shoppingOrder() {
+//    print("Purchase ingredients in the following shopping order:")
+//    return
+//}
+//
+//
+//shoppingOrder()
+//
+//print(sortIngredients())
 
-func goShopping(shoppingOrder: String) -> String {
-    let myOrder = "Purchase items in the following order:" + shoppingOrder + "!"
-    return myOrder
+func goShopping(salad: String) -> String {
+    let myList = "Purchase ingredients in the following shopping order:" + salad + "."
+    return myList
 }
 
-//func reverse(_ s1: String, _ s2: String) -> Bool {
-//    return s1 > s2
-//}
-var shoppingOrder = salad.sorted(by: >)
-
-print(salad)
-
-
+print(goShopping(salad: " lettuce, cucumbers, tomatoes"))
